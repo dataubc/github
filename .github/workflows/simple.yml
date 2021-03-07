@@ -12,8 +12,10 @@ jobs:
             npm -v
         - name: python commands
           run: |
-            print('simple opertion')
-            print('hi')
+            print(4*2)
+            print('simple operation')
+          shell: python
+           
 
 
         
